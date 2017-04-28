@@ -5,3 +5,12 @@
 </p>
 <button {{action 'delete' model}} class="btn btn-danger">Delete Question</button>
 {{question-update question=model update="update"}}
+
+
+<h3>Answers</h3>
+{{#each model.answers as |answer|}}
+  {{answer-tile answer=answer destroyAnswer="destroyAnswer" updateAnswer="updateAnswer"}}
+{{/each}}
+
+
+{{answer-new saveAnswer="saveAnswer" question=model}}
