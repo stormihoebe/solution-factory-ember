@@ -1,11 +1,13 @@
 # solution-factory
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+The Solution Factory is an web application to help programmers build a community around asking and answering questions built by using Ember.js
+
+## Details
+The Solution Factory is made up of two major models, Questions and Answers. All questions are displayed on the index page in question-tile components. Each question-tile component also links to a dynamic question  route that displays additional information about the question and also corresponding answers. Questions and Answers have full CRUD capability.
 
 ## Prerequisites
 
-You will need the following things properly installed on your computer.
+You will need the following items properly installed on your computer.
 
 * [Git](https://git-scm.com/)
 * [Node.js](https://nodejs.org/) (with NPM)
@@ -15,38 +17,39 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
+* `git clone <https://github.com/stormihoebe/solution-factory-ember.git>`
 * `cd solution-factory`
 * `npm install`
 * `bower install`
 
-## Running / Development
+## Running
 
 * `ember serve`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 
-### Code Generators
+## Contributing
 
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
-
-* `ember test`
-* `ember test --server`
+If you wish to contribute to the development of this Ember.js application, the following sections contain useful information about developing with Ember.js.
 
 ### Building
 
 * `ember build` (development)
 * `ember build --environment production` (production)
 
-### Deploying
 
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
+### Useful Links
 
 * [ember.js](http://emberjs.com/)
 * [ember-cli](https://ember-cli.com/)
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+
+### Support and contact details
+
+Contact Stormi at Epicodus
+stormihoebe@gmail.com
+
+### License
+
+Copyright (c) 2017 **_MIT License_**
