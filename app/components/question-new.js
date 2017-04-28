@@ -14,6 +14,6 @@ export default Ember.Component.extend({
       };
       this.set('newQuestionShowing', false);
       this.sendAction('saveQuestion', params);
-    }
+    },
   }
 });
