@@ -1,6 +1,9 @@
 @import "compass/css3";
 @import url(http://fonts.googleapis.com/css?family=Merriweather);
 
+.jumbotron{
+  background-color: inherit;
+}
 
 html, body {
   background: #f1f1f1;
@@ -8,7 +11,7 @@ html, body {
   padding: 1em;
 }
 
-h1 {
+h1, h3 {
    text-align: center;
    color: #a8a8a8;
 }
@@ -60,5 +63,3 @@ textarea {
 .left {
      margin-right: 2%;
 }
-/*
-ABOUT*/

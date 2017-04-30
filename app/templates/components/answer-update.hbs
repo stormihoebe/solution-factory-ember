@@ -1,17 +1,14 @@
 {{#if updateAnswerShowing}}
   <form>
     <div class="form-group">
-      <label for="author">Name</label>
       {{input value=author id="author" required="required" placeholder=answer.author  class="form-control"}}
     </div>
-
     <div class="form-group">
-      <label for="content">Answer</label>
-      {{input value=content id="content" placeholder=answer.content  class="form-control"}}
+      {{textarea value=content id="content" class="form-control" rows="6" placeholder=answer.content}}
     </div>
 
     <button{{action 'updateAnswer' answer}} class="btn btn-success">Submit Changes</button>
   </form>
 {{else}}
-<button class="btn btn-success" {{action 'updateAnswerShow'}}>Edit</button>
+<button class="btn btn-success pull-right" {{action 'updateAnswerShow'}}>Edit</button>
 {{/if}}
