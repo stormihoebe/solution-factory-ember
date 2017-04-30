@@ -16,12 +16,12 @@
       <label for="notes">Additional Notes</label>
       {{textarea value=notes id="notes" class="form-control" required=true rows=8}}
     </div>
-    <button class="btn btn-success" {{action 'saveQuestion'}}>Submit</button>
+    <button class="btn btn-success float-right" {{action 'saveQuestion'}}>Submit</button>
   </form>
 </div>
 {{else}}
 <h3>Have a Question?</h3>
 <br>
 <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-<button class="btn btn-success" {{action 'newQuestionShow'}}>Submit Question</button>
+<button class="btn btn-success float-right" {{action 'newQuestionShow'}}>Submit Question</button>
 {{/if}}
