@@ -1,7 +1,11 @@
 {{#link-to 'question' question.id}}
-<div class="question">
-  <h2>{{question.title}}</h2>
-    {{question.author}}
-  <p>{{question.notes}}</p>
+<div class="panel panel-default">
+  <div class="panel-heading"><h4>{{question.title}}</h4></div>
+  <div class="panel-body">
+    {{question.notes}}
+  </div>
+  <div class="panel-footer">
+    <p>Submitted by: {{question.author}}</p>
+  </div>
 </div>
 {{/link-to}}
